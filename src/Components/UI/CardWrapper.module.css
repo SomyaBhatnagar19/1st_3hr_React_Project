@@ -1,0 +1,5 @@
+.CardWrapper{
+    background: rgb(248, 248, 248);
+    box-shadow: 0 5px 12px black;
+    border-radius: 8px;
+}
