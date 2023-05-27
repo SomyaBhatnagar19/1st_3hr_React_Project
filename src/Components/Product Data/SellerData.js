@@ -35,7 +35,9 @@ const SellerData = (props) => {
 
 
   return (
-    <CardWrapper className={classes.input}>
+    <div>
+      <header style={{textAlign:'center', background:'lightblue', padding: '0.5rem', fontFamily: 'italic'}}><h2>Seller Admin Page</h2></header>
+      <CardWrapper className={classes.input}>
       <form onSubmit={addProductDataHandler}>
         <label htmlFor="id">Product Id: -</label>
         <input id="product_id" type="number" value={enteredProductId} onChange={setEnteredProductId}></input>
@@ -46,6 +48,8 @@ const SellerData = (props) => {
         <button type="submit">Add Product</button>
       </form>
     </CardWrapper>
+    </div>
+    
   );
 };
 
